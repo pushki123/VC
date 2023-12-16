@@ -1,0 +1,294 @@
+.Navbar {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  background-color: #a2d5ac;
+  overflow: hidden;
+  transition: 0.6s;
+  z-index: 1;
+  text-align: center;
+}
+
+.LogoDiv {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  position: absolute;
+  margin-left: 8%;
+}
+
+.NavigationDiv {
+  width: 100%;
+  margin: 0px 10%;
+  /* background-color: #567c81; */
+
+  text-align: center;
+  padding: 20px 0px 0px 0px;
+}
+
+.MBody {
+  width: 100%;
+  height: 2000px;
+  padding: 100px 0px 0px 0px;
+  background-color: #3aadaa;
+}
+
+.Sticky {
+  padding: 0px;
+  position: fixed;
+  top: 0px;
+  width: 80%;
+  transition: 0.6s;
+  background: rgba(252, 248, 248, 0.1);
+  /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 100px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  margin: 0px 10%;
+}
+
+.NavLink {
+  display: inline-block;
+  /* padding: 10px 20px 10px 20px; */
+  font-size: 4vh;
+  width: fit-content;
+  /* background-color: aqua; */
+  padding: 10px 20px;
+  margin: 0px 1%;
+  transition: 0.3s;
+  border: 1px solid white;
+  border-radius: 45px;
+  color: white;
+}
+
+.NavLink:hover {
+  background: white;
+  border-radius: 50px;
+  color: black;
+  border: 1px solid white;
+  transition: 0.1s;
+}
+
+.box {
+  width: 100%;
+  background-color: #3aadaa;
+  font-size: 20vh;
+  text-align: center;
+  margin-top: 50px;
+  height: 40%;
+}
+
+.Keyboard {
+  margin: 0px 21.45%;
+  width: 53%;
+  padding: 20px 2% 20px 2.1%;
+  background-color: aliceblue;
+  font-weight: 900;
+}
+
+.key {
+  font-size: 5vw;
+  display: inline-block;
+  letter-spacing: 2px;
+  transition: transform 0.2s;
+}
+
+@keyframes pressDown1 {
+  30%,
+  40%,
+  100% {
+    transform: translateY(0);
+  }
+  35% {
+    transform: translateY(10px);
+  }
+}
+
+@keyframes pressDown2 {
+  70%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(10px);
+  }
+}
+
+@keyframes pressDown3 {
+  30%,
+  40%,
+  100% {
+    transform: translateY(0);
+  }
+  35% {
+    transform: translateY(10px);
+  }
+}
+
+@keyframes pressDown4 {
+  40%,
+  50%,
+  100% {
+    transform: translateY(0);
+  }
+  45% {
+    transform: translateY(10px);
+  }
+}
+
+@keyframes pressDown5 {
+  20%,
+  30%,
+  100% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(10px);
+  }
+}
+
+@keyframes pressDown6 {
+  60%,
+  70%,
+  100% {
+    transform: translateY(0);
+  }
+  65% {
+    transform: translateY(10px);
+  }
+}
+
+@keyframes pressDown7 {
+  10%,
+  20%,
+  100% {
+    transform: translateY(0);
+  }
+  15% {
+    transform: translateY(10px);
+  }
+}
+
+@keyframes pressDown8 {
+  35%,
+  45%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(10px);
+  }
+}
+
+@keyframes pressDown9 {
+  35%,
+  45%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(10px);
+  }
+}
+@keyframes pressDown10 {
+  35%,
+  45%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(10px);
+  }
+}
+@keyframes pressDown11 {
+  35%,
+  45%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(10px);
+  }
+}
+@keyframes pressDown12 {
+  35%,
+  45%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(10px);
+  }
+}
+@keyframes pressDown13 {
+  35%,
+  45%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(10px);
+  }
+}
+@keyframes pressDown14 {
+  35%,
+  45%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(10px);
+  }
+}
+
+.key:nth-child(1) {
+  animation: pressDown1 2s infinite;
+}
+
+.key:nth-child(2) {
+  animation: pressDown2 3s infinite;
+}
+
+.key:nth-child(3) {
+  animation: pressDown3 4s infinite;
+}
+
+.key:nth-child(4) {
+  animation: pressDown4 2.5s infinite;
+}
+
+.key:nth-child(5) {
+  animation: pressDown5 2.5s infinite;
+}
+
+.key:nth-child(6) {
+  animation: pressDown6 3.5s infinite;
+}
+
+.key:nth-child(7) {
+  animation: pressDown7 2.2s infinite;
+}
+
+.key:nth-child(8) {
+  animation: pressDown8 3.2s infinite;
+}
+.key:nth-child(9) {
+  animation: pressDown9 4.2s infinite;
+}
+.key:nth-child(10) {
+  animation: pressDown10 1.2s infinite;
+}
+.key:nth-child(11) {
+  animation: pressDown11 4s infinite;
+}
+.key:nth-child(12) {
+  animation: pressDown12 2.4s infinite;
+}
+.key:nth-child(13) {
+  animation: pressDown13 3.5s infinite;
+}
+.key:nth-child(14) {
+  animation: pressDown14 3.2s infinite;
+}
